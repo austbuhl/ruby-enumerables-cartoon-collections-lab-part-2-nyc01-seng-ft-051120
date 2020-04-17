@@ -1,15 +1,11 @@
 def square_array(array)
   array.map {|num| num ** 2}
-  # Use an Enumerable to square every element in the passed in array
-  # Return a new array of the results
 end
 
 def summon_captain_planet(planeteer_calls)
   planeteer_calls.map do |element|
     p "#{element.capitalize}!"
   end
-  # Use an Enumerable to capitalize and add '!' to every element in the passed in array
-  # Return a new array of the results
 end
 
 def long_planeteer_calls(planeteer_calls)
